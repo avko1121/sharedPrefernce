@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_marginTop="140dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/Firstname"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:hint="First Name"
+        android:inputType="text"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/Lastname"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:hint="Last Name"
+        android:inputType="text"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/Age"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:hint="Age"
+        android:inputType="number"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="302dp"
+        android:layout_height="44dp"
+        android:hint="Address"
+        android:inputType="text"
+        android:maxLines="1"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="save"
+        android:layout_marginTop="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:background="#DD2C00"
+        android:layout_gravity="center_horizontal" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
